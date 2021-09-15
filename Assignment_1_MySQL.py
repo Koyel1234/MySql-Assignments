@@ -4,7 +4,7 @@
 # In[1]:
 
 
-# install neccessary library to connect MySQL with python
+#install neccessary library to connect MySQL with python
 #pip install mysql-connector-python
 
 
@@ -17,7 +17,7 @@ import mysql.connector as sql
 connection = sql.connect(
                             host = "localhost",
                             user = "root",
-                            password = "123456789"
+                            password = "*****" #write your own password in place of asterisks
                         )
 
 
